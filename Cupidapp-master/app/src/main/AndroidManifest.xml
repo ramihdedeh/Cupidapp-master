@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ali.cupid">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ali.cupid.Login.LauncherActivity"
+            android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ali.cupid.Login.RegisterActivity" />
+        <activity android:name="com.ali.cupid.Login.LoginActivity" />
+        <activity android:name="com.ali.cupid.Login.ChooseLoginRegistrationActivity" />
+        <activity android:name="com.ali.cupid.EditProfileActivity" />
+        <activity android:name="com.ali.cupid.Chat.ChatActivity" />
+        <activity
+            android:name="com.ali.cupid.MainActivity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.ali.cupid.ZoomCardActivity" />
+        <activity android:name="com.ali.cupid.SettingsActivity"></activity>
+    </application>
+
+</manifest>

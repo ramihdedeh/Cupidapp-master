@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122340716330",
+    "firebase_url": "https://cupid-9899d.firebaseio.com",
+    "project_id": "cupid-9899d",
+    "storage_bucket": "cupid-9899d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122340716330:android:5519bd968150057f",
+        "android_client_info": {
+          "package_name": "com.ali.cupid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122340716330-hf3fbmdeg3mt74djofmule9857o8hhgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ali.cupid",
+            "certificate_hash": "6cd74a8a572e67b0207e71514e2ba369d1995c23"
+          }
+        },
+        {
+          "client_id": "122340716330-tds5sf0jnddel3cv103lnfbp7vvsgrvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKILEXWXmhHKbV1yw4XwnYDfSWTf3Vkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122340716330-tds5sf0jnddel3cv103lnfbp7vvsgrvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
